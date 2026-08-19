@@ -165,9 +165,9 @@ const CommodityTable = ({ title, items }) => {
       sx={{
         width: "100%",
         borderRadius: "1.2vw",
-        background: "rgba(6, 18, 14, 0.65)",
-        backdropFilter: "blur(8px)",
-        boxShadow: "0 0.8vw 2vw rgba(0, 0, 0, 0.4)",
+        background: "linear-gradient(135deg, rgba(8, 25, 15, 0.75) 0%, rgba(4, 20, 10, 0.85) 50%, rgba(2, 10, 5, 0.75) 100%)",
+        backdropFilter: "blur(12px)",
+        boxShadow: "0 0.8vw 2vw rgba(0, 0, 0, 0.6), inset 0 0 2vw rgba(0, 255, 128, 0.1)",
         padding: ".3vw 1vw 0 1vw",
         overflow: "hidden",
         position: "relative",
@@ -179,12 +179,16 @@ const CommodityTable = ({ title, items }) => {
           borderRadius: "inherit",
           background: `
             linear-gradient(
-              135deg,
-              rgba(77, 191, 0, 0.3) 0%,
-              rgba(229, 197, 131, 0.45) 50%,
-              rgba(77, 191, 0, 0.2) 100%
+              120deg,
+              rgba(0, 255, 128, 0.4) 0%,
+              rgba(0, 255, 128, 1) 20%,
+              rgba(255, 215, 0, 0.9) 50%,
+              rgba(0, 255, 128, 1) 80%,
+              rgba(0, 255, 128, 0.4) 100%
             )
           `,
+          backgroundSize: "300% 300%",
+          animation: "sweepGradient 3s linear infinite",
           WebkitMask: `
             linear-gradient(#fff 0 0) content-box,
             linear-gradient(#fff 0 0)

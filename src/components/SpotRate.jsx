@@ -188,10 +188,10 @@ const SpotRate = () => {
           backdropFilter: "blur(0.8vw)",
 
           background:
-            "linear-gradient(135deg, rgba(10, 40, 20, 0.65) 0%, rgba(16, 60, 30, 0.75) 50%, rgba(8, 30, 15, 0.65) 100%)",
-          border: "0.18vw solid rgba(144, 238, 144, 0.25)",
+            "linear-gradient(135deg, rgba(8, 25, 15, 0.75) 0%, rgba(4, 20, 10, 0.85) 50%, rgba(2, 10, 5, 0.75) 100%)",
+          border: "none",
           boxShadow:
-            "inset 0 0 2vw rgba(0, 255, 128, 0.08), 0 0.8vw 2.4vw rgba(0, 0, 0, 0.4)",
+            "inset 0 0 2vw rgba(0, 255, 128, 0.1), 0 0.8vw 2.4vw rgba(0, 0, 0, 0.6)",
           padding: {
             xs: "2vw 3vw",
             sm: "0.5vw 2vw",
@@ -212,16 +212,17 @@ const SpotRate = () => {
             borderRadius: "inherit",
 
             background: `
-      linear-gradient(
-        150deg,
-        rgba(144, 238, 144, 0.35) 0%,
-        rgba(255, 255, 255, 0.8) 35%,
-        rgba(0, 255, 128, 0.3) 70%,
-        rgba(144, 238, 144, 0.4) 100%
-      )
-    `,
-            backgroundSize: "200% 200%",
-            animation: "borderShine 3s linear infinite",
+              linear-gradient(
+                120deg,
+                rgba(0, 255, 128, 0.4) 0%,
+                rgba(0, 255, 128, 1) 20%,
+                rgba(255, 215, 0, 0.9) 50%,
+                rgba(0, 255, 128, 1) 80%,
+                rgba(0, 255, 128, 0.4) 100%
+              )
+            `,
+            backgroundSize: "300% 300%",
+            animation: "sweepGradient 3s linear infinite",
 
             WebkitMask: `linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)`,
 
