@@ -188,10 +188,10 @@ const SpotRate = () => {
           backdropFilter: "blur(0.8vw)",
 
           background:
-            "linear-gradient(135deg, rgba(8, 25, 15, 0.75) 0%, rgba(4, 20, 10, 0.85) 50%, rgba(2, 10, 5, 0.75) 100%)",
+            "linear-gradient(135deg, rgba(1, 30, 18, 0.85) 0%, rgba(1, 20, 12, 0.95) 50%, rgba(1, 30, 18, 0.85) 100%)",
           border: "none",
           boxShadow:
-            "inset 0 0 2vw rgba(0, 255, 128, 0.1), 0 0.8vw 2.4vw rgba(0, 0, 0, 0.6)",
+            "inset 0 0 2vw rgba(4, 92, 54, 0.3), 0 0.8vw 2.4vw rgba(0, 0, 0, 0.6)",
           padding: {
             xs: "2vw 3vw",
             sm: "0.5vw 2vw",
@@ -214,11 +214,11 @@ const SpotRate = () => {
             background: `
               linear-gradient(
                 120deg,
-                rgba(0, 255, 128, 0.4) 0%,
-                rgba(0, 255, 128, 1) 20%,
-                rgba(255, 215, 0, 0.9) 50%,
-                rgba(0, 255, 128, 1) 80%,
-                rgba(0, 255, 128, 0.4) 100%
+                rgba(1, 30, 18, 0.4) 0%,
+                rgba(4, 92, 54, 1) 20%,
+                rgba(8, 145, 87, 0.9) 50%,
+                rgba(4, 92, 54, 1) 80%,
+                rgba(1, 30, 18, 0.4) 100%
               )
             `,
             backgroundSize: "300% 300%",
