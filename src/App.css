@@ -9,9 +9,6 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-body {
-  opacity: 0.2 !important;
-}
 
 @keyframes logo-spin {
   from {
