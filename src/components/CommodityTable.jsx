@@ -324,7 +324,8 @@ const CommodityTable = ({ title, items }) => {
                         marginLeft: "0.4vw",
                       }}
                     >
-                      {getPurityLabel(row.purity)}
+                      {/* {getPurityLabel(row.purity)} */}
+                      {row.purity}
                     </span>
                   )}
                 </Typography>
